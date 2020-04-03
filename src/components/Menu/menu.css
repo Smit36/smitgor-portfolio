@@ -1,0 +1,55 @@
+.Menu-Option {
+  position: absolute;
+  margin: 5% 0 0 10%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-between;
+}
+.Home-Link,
+.About-Link,
+.Contact-Link,
+.Resume-Link,
+.Projects-Link {
+  height: 35px;
+  width: 15%;
+  padding: 10px 0 0 0;
+  text-align: center;  
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  border-bottom: 1px solid #ebb916;
+  
+}
+
+.Home-Link:hover {
+  cursor: pointer; 
+  border-radius: 25px; 
+  background-color: #ebb916;
+  color: rgb(37, 36, 36);
+  
+}
+.About-Link:hover {
+    cursor: pointer; 
+    border-radius: 25px; 
+    background-color: #ebb916;
+    color: rgb(37, 36, 36);
+}
+.Contact-Link:hover {
+    cursor: pointer;  
+    border-radius: 25px;
+    background-color: #ebb916;
+    color: rgb(37, 36, 36);
+}
+.Resume-Link:hover {
+    cursor: pointer; 
+    border-radius: 25px; 
+    background-color: #ebb916;
+    color: rgb(37, 36, 36);
+}
+.Projects-Link:hover {
+    cursor: pointer;  
+    border-radius: 25px;
+    background-color: #ebb916;
+    color: rgb(37, 36, 36);
+}

@@ -1,0 +1,81 @@
+.Home-Header{
+    height: 100vh;
+    width: 100%;
+}
+.Home-Design {
+  height: 450px;
+  width: 400px;
+  margin-left: 68.35%;
+  justify-content: right;
+  background-color: #ebb916;
+}
+.Home-Image img {
+  position: absolute;
+  margin: -25% 10% 0 0;
+  height: 450px;
+  width: 400px;
+  border-radius: 1%;
+  box-shadow: -1px 2px 8px 0px rgba(0, 0, 0, 0.45);
+  animation: fadein;
+  -webkit-animation: fadein 1.5s;
+}
+.Home-Header-Name {
+  color:rgb(218, 216, 216);  
+  position: absolute;
+  text-align: left;
+  margin: -200px 0 0 10%;
+  font-size: 50px;
+}
+.Home-Header-Profile {
+  margin: 30px 0 0 0;
+  text-align: left;
+  font-size: 25px;
+   
+}
+.Home-Header-Profile-1{
+    animation: fadeup 2.5s;
+    animation-delay: 1s; 
+    color:rgb(43, 42, 42);
+    animation-fill-mode: forwards; 
+    
+}
+.Home-Header-Profile-2{
+    margin-top:5px;
+    animation: fadeup 2.5s;  
+    animation-delay: 2s;
+    color:rgb(43, 42, 42);
+    animation-fill-mode: forwards; 
+    
+}
+.Home-Header-Icon{
+    margin-top:10px;   
+    display: flex;
+    color: white;
+    animation: fadeup 2.5s;  
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards; 
+}
+.Facebook-Icon:hover {
+    color:white;
+}
+@keyframes fadeup {
+  from {
+    transform: translate3d(0, 20px, 0);
+    opacity: 0;
+    color:black;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    color: #ebb916;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
