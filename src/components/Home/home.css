@@ -1,6 +1,6 @@
-.Home-Header{
-    height: 100vh;
-    width: 100%;
+.Home-Header {
+  height: 100vh;
+  width: 100%;
 }
 .Home-Design {
   height: 450px;
@@ -20,7 +20,7 @@
   -webkit-animation: fadein 1.5s;
 }
 .Home-Header-Name {
-  color:rgb(218, 216, 216);  
+  color: rgb(218, 216, 216);
   position: absolute;
   text-align: left;
   margin: -200px 0 0 10%;
@@ -30,39 +30,67 @@
   margin: 30px 0 0 0;
   text-align: left;
   font-size: 25px;
-   
 }
-.Home-Header-Profile-1{
-    animation: fadeup 2.5s;
-    animation-delay: 1s; 
-    color:rgb(43, 42, 42);
-    animation-fill-mode: forwards; 
-    
+.Home-Header-Profile-1 {
+  animation: fadeup 2.5s;
+  animation-delay: 1s;
+  color: rgb(43, 42, 42);
+  animation-fill-mode: forwards;
 }
-.Home-Header-Profile-2{
-    margin-top:5px;
-    animation: fadeup 2.5s;  
-    animation-delay: 2s;
-    color:rgb(43, 42, 42);
-    animation-fill-mode: forwards; 
-    
+.Home-Header-Profile-2 {
+  margin-top: 5px;
+  animation: fadeup 2.5s;
+  animation-delay: 2s;
+  color: rgb(43, 42, 42);
+  animation-fill-mode: forwards;
 }
-.Home-Header-Icon{
-    margin-top:10px;   
-    display: flex;
-    color: white;
-    animation: fadeup 2.5s;  
-    animation-delay: 2.5s;
-    animation-fill-mode: forwards; 
+.Home-Header-Icon {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  animation: fadeup 2.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
 }
-.Facebook-Icon:hover {
-    color:white;
+
+.fa-facebook-f,
+.fa-linkedin-in,
+.fa-github,
+.fa-instagram,
+.fa-twitter {
+  margin: 5px 10px 0 10px;
+  font-size: x-large;
+  color: rgb(165, 164, 164);
+}
+i {
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+}
+.facebook-icon:hover .fa-facebook-f,
+.linkedin-icon:hover .fa-linkedin-in,
+.github-icon:hover .fa-github,
+.instagram-icon:hover .fa-instagram,
+.twitter-icon:hover .fa-twitter {
+  color: #ebb916;
+}
+.Arrow {
+  position: absolute;
+  margin: 89px 0 0 450px;
+}
+.fa-chevron-down {
+  font-size: 40px;
+  color: rgb(226, 222, 222);
+}
+.fa-chevron-down:hover {
+  color: #ebb916;
 }
 @keyframes fadeup {
   from {
     transform: translate3d(0, 20px, 0);
     opacity: 0;
-    color:black;
+    color: black;
   }
 
   to {
